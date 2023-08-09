@@ -1,0 +1,26 @@
+{
+  "name": "remark-fix-heading-depths",
+  "version": "1.0.0",
+  "description": "Plugin to Fix mdx error: Heading levels should only increment by one level at a time",
+  "main": "index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "test:list": "vitest run --reporter verbose",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "remark": "^14.0.2",
+    "@types/mdast": "^3.0.0",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^0.33.0",
+    "eslint": "^8.41.0",
+    "typescript": "^4.7.3",
+    "vitest": "^0.33.0"
+  }
+}
